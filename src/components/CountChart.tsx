@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { Legend, RadialBar, RadialBarChart, ResponsiveContainer } from "recharts"
+import { RadialBar, RadialBarChart, ResponsiveContainer } from "recharts"
 
 const data = [
   {
