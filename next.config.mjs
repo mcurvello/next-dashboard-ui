@@ -4,6 +4,11 @@ const nextConfig = {
     locales: ['en', 'pt'],  // Define os idiomas suportados
     defaultLocale: 'pt',    // Define o idioma padrão como português
   },
+  images: {
+    remotePatterns: [
+      {hostname: "images.pexels.com"}
+    ]
+  }
 };
 
 export default nextConfig;
